@@ -2,14 +2,14 @@
 namespace Kinatech\BugClasper\Channels;
 
 use Carbon\Carbon;
-use Exception;
 use Illuminate\Support\Facades\Notification;
 use Kinatech\BugClasper\Notifications\SlackNotice;
+use Throwable;
 
 class SlackChannel implements ChannelInterface
 {
 
-    public function report(Exception $exception, array $config = []): void
+    public function report(Throwable $exception, array $config = []): void
     {
         $time = Carbon::now()->toDateTimeString();
         $exceptionMessage = $exception->getMessage();

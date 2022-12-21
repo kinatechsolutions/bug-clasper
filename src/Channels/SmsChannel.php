@@ -2,11 +2,11 @@
 
 namespace Kinatech\BugClasper\Channels;
 
-use Exception;
+use Throwable;
 
 class SmsChannel implements ChannelInterface
 {
-    public function report(Exception $exception, array $config = []): void
+    public function report(Throwable $exception, array $config = []): void
     {
         // TODO: Implement report() method.
     }
