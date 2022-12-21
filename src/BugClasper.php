@@ -2,7 +2,7 @@
 
 namespace Kinatech\BugClasper;
 
-use Exception;
+use Throwable;
 
 class BugClasper
 {
@@ -13,7 +13,7 @@ class BugClasper
         $this->config = config('bugClasper');
     }
 
-    public function report(Exception $exception): void
+    public function report(Throwable $exception): void
     {
         $defaultConfigChannel = $this->config['channels'][$this->config['default']];
 
