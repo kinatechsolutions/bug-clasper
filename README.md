@@ -1,9 +1,9 @@
 ## kinatechsolutions/php-transport
-This is a php package to that wraps php curl class to perform http request for php, One can extend the transport class to support various auth methods i.e NTLM, Basic, Bearer
+A easy way to report Exceptions from a laravel app to various channels including Slack, Email, Sms
 
 ## Installation
 This release is hosted on github
-https://github.com/kinatechsolutions/php-transport.git
+https://github.com/kinatechsolutions/bug-clasper.git
 
 To install kinatechsolutions/php-transport head over to your projects composer.json
 and add the sigma repository on the repository option.
@@ -11,14 +11,14 @@ and add the sigma repository on the repository option.
 "repositories": [
         {
             "type": "git",
-            "url": "https://github.com/kinatechsolutions/php-transport"
+            "url": "https://github.com/kinatechsolutions/bug-clasper"
         }
     ]
 ```
 
 Add kinatechsolutions/php-transport on the require list in your composer.json
 ```json
-"kinatechsolutions/php-transport": "^1.0.0",
+"kinatechsolutions/bug-clasper": "^1.0.0",
 ```
 
 Install kinatechsolutions/php-transport with composer require command
