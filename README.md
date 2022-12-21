@@ -1,4 +1,4 @@
-## kinatechsolutions/php-transport
+## kinatechsolutions/bug-clasper
 A easy way to report Exceptions from a laravel app to various channels including Slack, Email, Sms
 
 ## Installation
